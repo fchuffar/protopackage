@@ -25,8 +25,12 @@ jobs:
 
       - name: Install dependencies
         run: |
-          install.packages(c("devtools"))
+          install.packages(c("remotes", "rcmdcheck", "devtools"))
           remotes::install_deps(dependencies = TRUE)
+        shell: Rscript {0}
+      - name: Use roxygen to document a package
+        run: |
+          devtools::document(); 
         shell: Rscript {0}
 
       - uses: r-lib/actions/setup-r-dependencies@v2
