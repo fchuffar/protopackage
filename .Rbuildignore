@@ -9,3 +9,4 @@ README.md
 codemeta.json
 tests
 ^doc$
+^\.github$
