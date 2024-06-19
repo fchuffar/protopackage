@@ -35,9 +35,15 @@ devtools::build()
 
 **Vignettes**
 
+Under R, 
 
-Under R, in the vignette directory:
+```
+devtools::build_vignettes()
+```
+
+Or, in the vignette directory:
     
 ```
 rmarkdown::render("make_a_coffee.Rmd")
 ```
+
