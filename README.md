@@ -2,6 +2,7 @@
 
 An empty R package build as a prototype. It illustrates development practices in R: documentation, literate programming, testing, versioning, continuous integration.
 
+
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/fchuffar/protopackage/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/fchuffar/protopackage/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
@@ -34,9 +35,15 @@ devtools::build()
 
 **Vignettes**
 
+Under R, 
 
-Under R, in the vignette directory:
+```
+devtools::build_vignettes()
+```
+
+Or, in the vignette directory:
     
 ```
 rmarkdown::render("make_a_coffee.Rmd")
 ```
+
