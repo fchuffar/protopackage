@@ -1,3 +1,4 @@
+# R code content for tutorial introduced there http://epimed.univ-grenoble-alpes.fr/downloads/dmzfch/anf_bpdevr/presa.pdf
 set.seed(1)
 
 # fruit profiles matrix
