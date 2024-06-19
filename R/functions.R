@@ -7,6 +7,8 @@
 #' @return mug a data.frame filled of coffee
 #' @importFrom stats na.omit
 #' @export
+#' @examples
+#' make_coffee(rnorm(10))
 make_coffee = function(coffee, mug, sugar=FALSE) {
   if (missing(mug)) {
     mug = data.frame(coffee = coffee)

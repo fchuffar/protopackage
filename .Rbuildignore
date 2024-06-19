@@ -10,3 +10,5 @@ codemeta.json
 tests
 ^doc$
 ^\.github$
+^Meta$
+misc
