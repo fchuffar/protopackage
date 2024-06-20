@@ -23,6 +23,10 @@ git clone git@github.com:fchuffar/protopackage.git
 cd protopackage
 ```
 
+
+**CI**
+
+
 Under R:
     
 ```
